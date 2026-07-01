@@ -1,0 +1,212 @@
+.row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    /* Groups items horizontally right next to each other */
+    .group-left, .group-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .maroon-text {
+      color: #801a24;
+      font-weight: bold;
+    }
+    .navbar{
+        display: flex;
+        gap: 40px;
+        justify-content: space-around;
+    }
+    .nav-button{
+        background-color: #801a24;
+        color: rgba(239, 236, 236, 0.699);
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .nav-item{
+        color: #801a24;
+    }
+    .p1{
+        background-color: burlywood;
+    }
+    .p3{
+        
+        margin-left: 700px;
+        color: #801a24;
+    }
+    .navbar1{
+        display: flex;
+        gap: 70px;
+        justify-content: flex-end;
+    }
+    .p4{
+        background-color: #021a27;
+        color: rgba(239, 236, 236, 0.699);
+        border-radius: 10px;
+        padding: 2px;
+
+    }
+    
+ /* Layout to align the cards horizontally in a row */
+.product-row {
+    
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #fcebeb; /* Light pink background from image */
+  padding: 20px;
+}
+
+/* Base style for individual card containers */
+.card-container {
+   
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Fixed sizing wrapper to hold stacked images */
+.image-wrapper {
+   
+  position: relative;
+  width: 300px;  /* Adjust size as needed */
+  height: 250px; /* Adjust size as needed */
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+/* Absolute positioning to layer images on top of each other */
+.image-wrapper img {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Setup initial opacity states */
+.img-default {
+  opacity: 1;
+}
+
+.img-hover {
+  opacity: 0;
+}
+
+/* Hover triggers: Hide default image, reveal hover image */
+.image-wrapper:hover .img-default {
+  opacity: 0;
+}
+
+.image-wrapper:hover .img-hover {
+  opacity: 1;
+}
+
+/* Price text formatting below the image */
+.price {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #8b2525; /* Maroon color from image */
+}
+.product-row1 {
+    
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #fcebeb; /* Light pink background from image */
+  padding: 20px;
+}
+
+/* Base style for individual card containers */
+.card-container1 {
+   
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+  
+
+.image-wrapper1 {
+   
+  position: relative;
+  width: 300px;  /* Adjust size as needed */
+  height: 250px; /* Adjust size as needed */
+  overflow: hidden;
+  border-radius: 6px;
+}
+.image-wrapper1 img {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+
+/* Setup initial opacity states */
+.img-default {
+  opacity: 1;
+}
+
+.img-hover {
+  opacity: 0;
+}
+
+/* Hover triggers: Hide default image, reveal hover image */
+.image-wrapper1:hover .img-default {
+  opacity: 0;
+}
+
+.image-wrapper1:hover .img-hover {
+  opacity: 1;
+}
+
+/* Price text formatting below the image */
+.price {
+  margin-top: 18px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #8b2525; /* Maroon color from image */
+}
+.nav{
+margin-left: 30px;
+}
+.nav1{
+  text-align: center;
+}
+.c1{
+  color: rgb(56, 5, 103);
+}
+.c2{
+  font-size: 20px;
+  
+}
+.c3{
+  font-size: 6px;
+  color: rgb(90, 75, 149);
+  
+  
+}
+.c4{
+  color: rgb(56, 2, 2);
+  
+}

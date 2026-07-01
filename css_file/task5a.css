@@ -1,0 +1,31 @@
+.img{
+    margin-top: 100px;
+    border-top: 100px;
+    height: 100px;
+    width: 100px;
+}
+.title{
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.choose-size-container{
+    margin-left: 100px;
+    display: flex;
+}
+.size-box{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+
+   
+}
+.p1{
+       position:absolute;
+       left: 650px;
+       top:10px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height:302px;
+    width: 290px;
+    border: 2px solid black;
+    margin: 100px 500px;
+    position: relative;
+}
+.child{
+   position: absolute;
+   top:0px;
+   left: 0px;
+   background-color: rgb(136, 148, 8);
+    border: 4px soid rgb(6, 13, 15);
+    padding:120px 75px;
+    font-size: 50px;
+
+    transform-origin:left center;
+    transition:1s;
+}
+.child:hover{
+        transform:rotatey(160deg);
+
+}
